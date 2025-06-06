@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Exercise</title>
+  </head>
+  <body>
+    <h1>HTML Form Solution</h1>
+    <form>
+      <!-- TODO: Add an input for "Full Name" -->
+      <label for="Full Name">Full Name:</label><br />
+      <input
+        type="text"
+        id="Enter Your Full name"
+        name="Enter Your Full name"
+        placeholder="Enter Your Full Name"
+      /><br /><br />
+      <!-- TODO: Add an input for "Email" -->
+      <label for="Email">Email:</label><br />
+      <input
+        type="text"
+        id="Email"
+        name="Email"
+        placeholder="Enter Your Email"
+      /><br /><br />
+
+      <!-- TODO: Add a password field -->
+      <label for="Password">Password:</label><br />
+      <input
+        type="text"
+        id="Password"
+        name="Password"
+        placeholder="Enter Your Password"
+      /><br /><br />
+      <!-- TODO: Add radio buttons for "Gender" (Male/Female/Other) -->
+      <label for="Gender">Gender</label><br /><br />
+      <input type="radio" id="Male" name="Gender" value="Male" />
+      <label for="Female">Male</label><br />
+      <input type="radio" id="Female" name="Gender" value="Female" />
+      <label for="Female">Female</label><br />
+      <input type="radio" id="Other" name="Gender" value="Other" />
+      <label for="Other">Other</label><br />
+      <br />
+      <!-- TODO: Add a dropdown for "Country" -->
+      <label for="Country">Country:</label><br />
+      <select name="Country" id="Country" required>
+        <option value="">Select Country</option>
+        <option value="UK">United Kingdom</option>
+        <option value="US">United States</option>
+        <option value="IND">India</option>
+      </select>
+      <br />
+      <br />
+      <!-- TODO: Add a submit button -->
+      <input type="submit" name="submit" id="submit" />
+    </form>
+  </body>
+</html>
